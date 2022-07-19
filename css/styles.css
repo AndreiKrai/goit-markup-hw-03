@@ -46,6 +46,9 @@ section {
   letter-spacing: 0.03em;
 }
 /*----------Header-----------*/
+.header {
+  border-bottom: 1px solid #ececec;
+}
 .logo {
   font-family: 'Raleway' sans-serif;
   font-weight: 700;

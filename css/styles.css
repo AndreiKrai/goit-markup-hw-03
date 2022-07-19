@@ -108,8 +108,8 @@ section {
   padding: 10px 32px;
 }
 /*----------Feauters-----------*/
-.feauters{
-    padding-bottom: 0;
+.feauters {
+  padding-bottom: 0;
 }
 .feauters-title,
 .portfolio-title {
@@ -241,6 +241,7 @@ section {
 }
 .portfolio-item {
   flex-basis: calc((100%-60px)) / 3;
+  outline: 1px solid #eeeeee;
 }
 .card-img {
   margin-bottom: 20px;
@@ -258,4 +259,3 @@ section {
   line-height: 1.88;
   margin: 0 24px 20px 24px;
 }
-feauters

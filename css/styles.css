@@ -50,7 +50,7 @@ section {
   border-bottom: 1px solid #ececec;
 }
 .logo {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -93,6 +93,7 @@ section {
 .hero {
   background-color: var(--dark-bg-color);
   text-align: center;
+  padding: 200px 0;
 }
 .hero-title {
   font-weight: 900;
@@ -175,7 +176,10 @@ section {
   margin-right: 30px;
 }
 .team-img {
-  margin-bottom: 30px;
+}
+.team-item-desc {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-name {
   font-weight: 500;
@@ -189,7 +193,6 @@ section {
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
-  margin-bottom: 30px;
 }
 /*----------Footer-----------*/
 .footer {
@@ -204,6 +207,9 @@ section {
 }
 .footer-address {
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .link-adress {
   color: #ffffff;
@@ -223,8 +229,6 @@ section {
   font-size: 16px;
   line-height: calc(26 / 16);
 
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   padding: 6px 22px;
   background: #f5f4fa;
@@ -247,19 +251,19 @@ section {
   flex-basis: calc((100%-60px)) / 3;
   outline: 1px solid #eeeeee;
 }
-.card-img {
-  margin-bottom: 20px;
+.item-desc-field {
+  padding: 20px 24px;
 }
 .card-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin: 0 24px 4px 24px;
   color: var(--second-tex-color);
+  margin: 0;
 }
 .card-descr {
   font-size: 16px;
   line-height: 1.88;
-  margin: 0 24px 20px 24px;
+  margin: 0;
 }
